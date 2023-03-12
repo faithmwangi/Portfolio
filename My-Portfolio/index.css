@@ -34,4 +34,26 @@ header {
     right: 0;
     z-index: 999;
   }
+  nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav li {
+    margin-right: 20px;
+  }
+
+  nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
 
