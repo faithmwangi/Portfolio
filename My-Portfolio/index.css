@@ -112,3 +112,30 @@ header {
     color: #666;
     margin-bottom: 40px;
   }
+  #skills ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #skills li {
+    width: 335px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: brightness(10px);
+  }
+
+  #skills h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #skills p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
