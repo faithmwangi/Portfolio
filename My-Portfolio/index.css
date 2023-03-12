@@ -83,3 +83,32 @@ header {
   section p {
     font-size: 16px;
   }
+  #hero {
+    background-color: #f8f8ff;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about-hero {
+    margin-left: 40px;
+  }
+
+  .about-hero h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #999;
+  }
+
+  .about-hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .about-hero h3 {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 40px;
+  }
